@@ -12,7 +12,7 @@ if [ -z "$CROSS_OVER_VERSION" ]; then
 fi
 
 # avoid weird linker errors with Xcode 10 and later
-export MACOSX_DEPLOYMENT_TARGET=10.14
+export MACOSX_DEPLOYMENT_TARGET=10.15
 # crossover source code to be downloaded
 export CROSS_OVER_SOURCE_URL=https://media.codeweavers.com/pub/crossover/source/crossover-sources-${CROSS_OVER_VERSION}.tar.gz
 export CROSS_OVER_LOCAL_FILE=crossover-${CROSS_OVER_VERSION}
